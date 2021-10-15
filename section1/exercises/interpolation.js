@@ -22,7 +22,7 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
 
 
 // YOU DO:
@@ -39,17 +39,22 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`)
 
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+  numOfDoors = 12;
+  isGlassHouse = true;
+  dontThrow = 'stones';
+  console.log(`Look Frank, why do you have ${numOfDoors} doors, it doesn't make sense and you do live in a glass house, right? Look Dave, it is ${isGlassHouse} that I live in one but, the last thing I do is throw ${dontThrow} !`);
 
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
