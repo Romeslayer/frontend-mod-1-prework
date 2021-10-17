@@ -38,16 +38,31 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+ Line 14 has a if statement that has a conditional statement of is the value of the variable doorChoice strictly equal to
+ 1 if the value doorChoice is equal to 1 then the code on line 15 executes which changes the value of bearClothing to the string 'hat'.
+ If the value of doorChoice is not equal to one the code in line 17 will run because of the else statement on line 15,
+ which would change the value of the variable bearClothing to the string 'scarf'.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+  The variable bearClothing has a new value assigned after the first if statement.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+  If the value of doorChoice is 3 then the bearClothing value would be reassigned to scarf.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+  Line 27 has a if statement that has a conditional statement that checks the value of bearChoice is 1, 2, 3, or anything else
+  if bearChoice is 1 then line 28 executes and logs a string to the console. If bearChoice is 2 then the else if statement on
+  line 29 will be true and executes line 30 which will log a different string to the console. If bearChoice's
+  value is 3 then the else if statement on line 31 would be true and that would execute line 32 which logs
+  a different string to the console. Lastly if bearChoice is not equal to 1, 2, or 3 then the last else statement
+  on line 33 will execute the code on line 34 which logs a entirely different string to the console.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+  "You run as fast as you can into the next room. it's full of snakes"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+  "You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
+ "You offer the bear your scarf and the bear shows you a secret passage out!"
 */
