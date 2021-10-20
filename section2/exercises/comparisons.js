@@ -19,16 +19,16 @@ var stringTeachers = "4";
 var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
+console.log("Is numberTeachers greater than numberStudents?, " numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-console.log("Is numbersTeachers less than numberStudents?", numberTeachers < numberStudents);
+console.log("Is numbersTeachers less than numberStudents?, " numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-console.log("Is numbersTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
+console.log("Is numbersTeachers equal to stringTeachers?, " numberTeachers == stringTeachers);
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
@@ -37,7 +37,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-console.log("Is numbersTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
+console.log("Is numbersTeachers strictly equal to stringTeachers?, " numberTeachers === stringTeachers);
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
@@ -50,19 +50,19 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-console.log("Is numbersTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
+console.log("Is numbersTeachers not equal to numberStudents?, " numberTeachers !== numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
+console.log("Is numberStudents greater than or equal to 20?, " numberStudents >= 20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
+console.log("Is numberStudents greater than or equal to 21?, " numberStudents >= 21);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
+console.log("Is numberStudents less than or equal to 20?, " numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-console.log("Is numberStudents less than or equal to 21?", numberStudents <=21);
+console.log("Is numberStudents less than or equal to 21?, " numberStudents <=21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -122,9 +122,10 @@ console.log(lovesToPlay && lovesTreats);
 console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-console.log(lovesToPlay || lovesDogPark)
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age <= 2);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: The final line of code evaluates to true, because the OR logical operator returns true if either

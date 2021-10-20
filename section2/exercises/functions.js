@@ -63,7 +63,7 @@ sum(12,9);
 function outerSpace(planet1, planet2) {
   console.log("Next on our space flight is " + planet1 + " which has beautiful weather. Then we are off to " + planet2 +", make sure to bring a coat!")
 };
-outerSpace('Jupiter','Pluto')
+outerSpace('Jupiter','Pluto');
 
 //-------------------
 // PART 3: Naming is Hard
