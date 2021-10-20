@@ -60,12 +60,12 @@ console.log(foods.length);
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
 foods.push("Broccoli");
-console.log(foods)
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
 foods.pop();
-console.log(foods)
+console.log(foods);
 
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
@@ -77,9 +77,9 @@ for (let i = 0; i <= 2; i++) {
     foods.push('Collard Greens');
   } else if (i === 2) {
     foods.push('Vitamalt');
-  };
-};
-console.log(foods)
+  }
+}
+console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
 foods.shift();
