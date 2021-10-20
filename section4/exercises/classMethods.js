@@ -38,7 +38,7 @@ class Burrito {
   changeProtein(protein) {
     this.protein = protein;
   }
-};
+}
 
 // ADD CODE
 var chickenBurrito = new Burrito("chicken", "flour", ["corn", "salsa", "black beans", "sour cream"]);

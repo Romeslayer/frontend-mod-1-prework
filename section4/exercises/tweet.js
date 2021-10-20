@@ -28,7 +28,7 @@ class Tweet {
   addComment(string) {
     this.comments.push(string);
   }
-};
+}
 
 // Make new Tweet objects
 var jakeTweet, bernieTweet, sashaTweet, trumpTweet;

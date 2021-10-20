@@ -14,7 +14,7 @@ var foods = {
   apples: 23,
   grapes: 507,
   eggs: 48
-};
+}
 
 console.log(foods);
 // Notice that the variable name is foods, plural, because it has the ability to hold info about
@@ -34,7 +34,7 @@ var animals = {
   lion: 12,
   polarbear: 4,
   cheetah: 14,
-};
+}
 
 
 // Using the zoo that you created above, log the value of the first item in
@@ -51,7 +51,7 @@ console.log(animals);
 
 // Add another animal to the zoo Object, and log the updated Object.
 animals.mongoose = 17;
-console.log(animals)
+console.log(animals);
 
 //-------------------
 // Part 2: Email
@@ -110,7 +110,7 @@ var posts = [
     numberLikes: 13,
     comments: []
   }
-]
+];
 
 console.log(posts);
 console.log(posts[0]);

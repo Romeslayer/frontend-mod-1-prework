@@ -18,7 +18,7 @@ Make sure to run the file with node in your command line.
 // Prompt 1: Dog
 class Dog {
 
-};
+}
 var husky = new Dog();
 var pomaranean = new Dog();
 console.log(husky);
@@ -27,7 +27,7 @@ console.log(pomaranean);
 // Prompt 2: Snack
 class Snack {
 
-};
+}
 var almonds = new Snack();
 var peanuts = new Snack();
 console.log(almonds);
@@ -36,7 +36,7 @@ console.log(peanuts);
 // Prompt 3: Shirt
 class Shirt {
 
-};
+}
 var tankTops = new Shirt();
 var vNeck = new Shirt();
 console.log(tankTops);
@@ -61,7 +61,7 @@ class Dog1 {
     this.weight = 165;
     this.height = 30;
   }
-};
+}
 var goldenShepard =  new Dog1();
 console.log(goldenShepard);
 
@@ -88,7 +88,7 @@ class Shirt1 {
   }
 }
 var whiteTank = new Shirt1();
-console.log(whiteTank)
+console.log(whiteTank);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -110,7 +110,7 @@ console.log(whiteTank)
       this.weight = weight;
       this.height = height;
     }
-  };
+  }
   var chocolateLab =  new Dog2("Tony", 200, 34);
   console.log(chocolateLab);
 
