@@ -36,7 +36,7 @@ class Burrito {
 
   // ADD CODE
   changeProtein(protein) {
-    this.protein = protein;
+   this.protein = protein;
   }
  addTopping(newTopping) {
     this.toppings.push(newTopping);
@@ -49,4 +49,9 @@ var steakBurrito = new Burrito("steak", "corn", ["corn", "sour cream", "shredded
 var veggieBurrito = new Burrito("impossible", "flour", ["corn", "pinto beans", "black beans", "cilantro"]);
 console.log(veggieBurrito);
 veggieBurrito.changeProtein('steak');
+console.log(veggieBurrito);
+
+veggieBurrito.addTopping("guacamole","sour cream");
+chickenBurrito.addTopping("soy sauce");
+console.log(chickenBurrito);
 console.log(veggieBurrito);
