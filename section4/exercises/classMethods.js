@@ -38,6 +38,9 @@ class Burrito {
   changeProtein(protein) {
     this.protein = protein;
   }
+ addTopping(newTopping) {
+    this.toppings.push(newTopping);
+  }
 }
 
 // ADD CODE
