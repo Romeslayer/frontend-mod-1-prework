@@ -112,6 +112,7 @@ console.log(whiteTank);
     }
   }
   var chocolateLab =  new Dog2("Tony", 200, 34);
+  var yellowLab = new Dog2("Albert",150,31)
   console.log(chocolateLab);
 
   // Prompt 2: Snack
@@ -124,6 +125,7 @@ console.log(whiteTank);
     }
   }
   var twix = new Snack2("Twix","chocolate", 5);
+  var airheads = new Snack2("Airheads","sweet",3)
   console.log(twix);
 
   // Prompt 3: Shirt
@@ -136,4 +138,7 @@ console.log(whiteTank);
     }
   }
   var blueTank = new Shirt2('blue', 'M', 21.33);
+  var redTank = new Shirt2("red",'S',15.431);
   console.log(blueTank);
+  console.log(redTank);
+
